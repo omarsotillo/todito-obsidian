@@ -1,0 +1,29 @@
+<script lang="ts">
+  import type { Moment } from 'moment';
+  import { Calendar } from 'obsidian-calendar-ui';
+
+  import type { TaskLine } from 'src/task-line';
+
+  // Creation Parameters
+  export let task: TaskLine;
+  export let close: () => void;
+
+  // Internal Properties
+  const today = window.moment();
+
+  const onClickDay = async (
+    date: Moment,
+  ): Promise<void> => {
+    await task.move(date.startOf('day'));
+    close();
+  };
+</script>
+
+<p>Select a day for the task to be moved to:</p>
+
+<Calendar
+  {onClickDay}
+  {today}
+  showWeekNums={false}
+  localeData={today.localeData()}
+/>

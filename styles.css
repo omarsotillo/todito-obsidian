@@ -1,0 +1,99 @@
+/*
+ *  Custom preview-mode rendering
+ */
+
+.todito-task-icon {
+  height: 17px;
+  width: 17px;
+  margin-left: 5px;
+  margin-right: 6px;
+  position: relative;
+  top: 3px;
+  fill: var(--text-muted);
+  stroke: var(--text-muted);
+}
+
+/*
+ * todito Task View
+ */
+
+.todito-task-view-filter-icon {
+  height: 20px;
+  width: 20px;
+  margin-left: 5px;
+  margin-right: 6px;
+  position: relative;
+  top: 3px;
+  fill: var(--text-on-accent);
+  stroke: var(--text-on-accent);
+}
+
+.todito-task-view-filter-button {
+  padding: 8px 5px;
+}
+
+/*
+ *  Task Repetition Modal
+ */
+
+.todito-modal input {
+  border-radius: 0.5em;
+  padding: 19px 14px;
+}
+
+#todito-interval-selector {
+  width: 60px;
+}
+
+#todito-frequency-selector {
+  width: 103px;
+}
+
+#todito-onthe-selector {
+  width: 60px;
+}
+
+.todito-months-btn-group button {
+  padding: 6px 8px;
+  margin: 3px 6px 3px 0;
+}
+
+.todito-days-btn-group button {
+  padding: 6px 8px;
+  margin: 3px 6px 3px 0;
+}
+
+#todito-selected-weeks ul {
+  list-style: none;
+}
+
+#todito-repetition-preview {
+  width: 100%;
+}
+
+#todito-save-repetition-config {
+  margin-top: 3px;
+}
+
+/*
+ *  Task Move Modal
+ */
+
+.todito-move-option label {
+  color: var(--text-muted);
+  font-size: small;
+}
+
+/*
+ *  Donate - in Settings
+ */
+
+.todito-donation {
+  width: 70%;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.todito-donate-button {
+  margin: 10px;
+}

@@ -1,0 +1,11 @@
+{
+  "id": "todito-obsidian",
+  "name": "Todito",
+  "author": "Omar Sotillo",
+  "authorUrl": "https://omar.geilo.co",
+  "description": "Todo Management -  Keep track of your todos in a day.",
+  "isDesktopOnly": false,
+  "version": "0.0.1",
+  "minAppVersion": "0.10.2",
+  "js": "main.js"
+}
